@@ -54,5 +54,6 @@ public class Principal {
 		OptionalInt menorIdade = people.stream().mapToInt(i -> i.getAge()).min();
 		System.out.println("Menor Idade.: "+ menorIdade);
 
+		
 	}
 }
