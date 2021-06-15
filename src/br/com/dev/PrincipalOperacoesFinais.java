@@ -72,7 +72,7 @@ public class PrincipalOperacoesFinais {
 		// fornecido.
 		boolean isNoneMatch = people.stream().noneMatch(i -> i.getAge() < 4);
 		System.out.println("Todos tem idade menor que 4.: " + isNoneMatch);
-
+		
 	}
 
 }
